@@ -1,0 +1,7 @@
+
+resilience4j:
+  retry:
+    instances:
+      geoLocation:
+        maxRetryAttempts: 3
+        waitDuration: 2s
